@@ -22,7 +22,9 @@ The format of file ‘strings.txt’ is like this (the first string is s1 and the se
 As an example, after the initial data arrangement among three processes, these processes
 own the data in this way:
 
-P0        P1      P2
-abca   ssgh    bca
-bca     bca     bca
+	P0      abca   bca
+
+	P1      ssgh   bca
+
+	P2      bca    bca
 
